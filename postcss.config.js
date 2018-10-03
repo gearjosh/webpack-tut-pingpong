@@ -1,5 +1,5 @@
 module.exports = {
-  parser: 'sugarss',
+  // parser: 'sugarss',
   map: false,
   plugins: [
     require('autoprefixer'),
