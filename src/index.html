@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Ping Pong</title>
+    <title>Make a Zero</title>
   </head>
   <body>
-    <form id="ping-pong-form">
-      <label for="goal">Enter a number:</label>
-      <input id="goal" type="number">
-      <button type="submit">Submit</button>
-    </form>
-    <ul id="solution"></ul>
+    <div class="container">
+      <h1>Make a 0</h1>
+      <form id="form">
+        <label for="input">Enter anything</label>
+        <input id="input" type="text" placeholder="47, elephant, Queen Victoria, etc.">
+        <button class="btn" type="submit">Make a 0</button>
+      </form>
+      <div class="row">
+        <div class="col-md-6">
+          <p>You Said:</p>
+          <ul id="inputs-go-here">
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <p>Here Is A Zero:</p>
+          <ul id="zeroes-go-here">
+          </ul>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

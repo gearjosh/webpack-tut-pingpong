@@ -13,7 +13,14 @@ module.exports = function(config) {
     ],
     preprocessors: {
       'src/*.js': ['webpack', 'sourcemap'],
-      'spec/*spec.js': ['webpack', 'sourcemap']
+      'spec/*spec.js': ['webpack', 'sourcemap'],
+      'src/**/*.scss': ['scss']
+    },
+    scssPreprocessor: {
+      options: {
+        sourceMap: true,
+        includePaths: ['bower_components']
+      }
     },
     plugins: [
       'karma-jquery',

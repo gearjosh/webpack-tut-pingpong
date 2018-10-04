@@ -1,0 +1,28 @@
+$margin: 0.5rem;
+
+html {
+  font-size: 100%;
+  padding: 1rem;
+  margin: $margin;
+}
+
+body {
+  background-color: #DCCB18;
+  color: #00A3AF;
+}
+
+input {
+  width: 35rem;
+}
+
+li {
+  color: #43676B;
+}
+
+p {
+  margin: $margin;
+}
+
+button {
+  display: block;
+}
